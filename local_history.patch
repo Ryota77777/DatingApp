@@ -1,0 +1,53 @@
+Index: app/src/main/java/com/example/talkerbanda/viewmodel/MessagesViewModel.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/talkerbanda/viewmodel/MessagesViewModel.kt b/app/src/main/java/com/example/talkerbanda/viewmodel/MessagesViewModel.kt
+--- a/app/src/main/java/com/example/talkerbanda/viewmodel/MessagesViewModel.kt	
++++ b/app/src/main/java/com/example/talkerbanda/viewmodel/MessagesViewModel.kt	(date 1718259413208)
+@@ -9,35 +9,28 @@
+     val messages: LiveData<List<Message>>
+         get() = _messages
+ 
+-    init {
+-        // Initialize with an empty list
+-        _messages.value = mutableListOf()
+-    }
+-
+-    // Function to send a message
++    // Функция для отправки сообщения
+     fun sendMessage(messageText: String) {
+-        // Create a new message object and add it to the list of messages
+-        val newMessage = Message(
+-            id = "1", // You can change the id generation logic as needed
+-            text = messageText,
+-            timestamp = System.currentTimeMillis().toString()
+-        )
++        // Логика отправки сообщения
++        // Создание объекта сообщения и добавление его в список сообщений
++        val newMessage = Message("User", messageText, System.currentTimeMillis())
+         val currentMessages = _messages.value?.toMutableList() ?: mutableListOf()
+         currentMessages.add(newMessage)
+         _messages.value = currentMessages
+     }
+ 
+-    // Function to search messages
++    // Функция для поиска сообщений
+     fun searchMessages(query: String) {
+-        // Logic to search messages
+-        // In this example, just filtering the message list by text
++        // Логика поиска сообщений
++        // В данном примере просто фильтрация списка сообщений по тексту
+         val currentMessages = _messages.value ?: return
+         val filteredMessages = currentMessages.filter { message ->
+             message.text.contains(query, ignoreCase = true)
+         }
+         _messages.value = filteredMessages
+     }
+-}
++
++
+ 
+ 
+ 

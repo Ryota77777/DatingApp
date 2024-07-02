@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">LoveLander</string>
+    <string name="title_home">Главная</string>
+    <string name="title_messages">Сообщения</string>
+    <string name="title_profile">Профиль</string>
+    <string name="title_search">Поиск</string>
+    <string name="title_settings">Настройки</string>
+    <string name="home">Home</string>
+    <string name="user_info">
+        Анна,27\nМосква\nРаботаю графическим дизайнером. Люблю создавать красивые вещи и делиться творчеством.
+    </string>
+    <string name="_27_27">Имя: Анна Возраст: 27 лет Город: Москва О себе: Привет! Меня зовут Анна, мне 27 лет, живу в Москве и работаю графическим дизайнером. Люблю создавать красивые вещи и делиться творчеством.</string>
+    <string name="todo">TODO</string>
+    <string name="поиск">Введите текст для поиска</string>
+    <string name="search_hint">Найти новые знакомства</string>
+    <string name="search_icon">Иконка поиска</string>
+    <string name="send_message">Отправить</string>
+    <string name="search_message">Поиск сообщений</string>
+    <string name="write_message">Напишите ваше сообщение</string>
+    <string name="description">Основная информация:\nИмя: Игорь\nФамилия: Ожегов\nВозраст: 32\nО себе: Я профессиональный программист с опытом работы более 5 лет. Моя страсть - создавать инновационные решения для улучшения жизни людей. Кроме работы, я увлекаюсь спортом, особенно футболом, и люблю путешествовать, открывая для себя новые культуры и традиции.</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="password">Пароль</string>
+    <string name="email">Email</string>
+    <string name="login">Войти</string>
+    <string name="log_in">Войти</string>
+    <string name="register1">Регистрация</string>
+    <string name="рег">Регистрация</string>
+    <string name="email2">Email</string>
+    <string name="ввв">Вход</string>
+    <string name="ввапв">Пароль</string>
+    <string name="welcome_message">Добро пожаловать! \nВы можете создать учетную запись или войти в уже существующую!</string>
+    <string name="ВВВВВ">TODO</string>
+    <string name="user_description_1">Очень длинное описание пользователя 1, которое может занимать много строк.</string>
+    <string name="user_description_2">Очень длинное описание пользователя 2, которое может занимать много строк.</string>
+    <string name="user_description_3">Очень длинное описание пользователя 3, которое может занимать много строк.</string>
+</resources>

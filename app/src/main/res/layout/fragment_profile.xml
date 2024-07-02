@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="viewModel"
+            type="com.example.talkerbanda.viewmodel.ProfileViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".profile.ProfileFragment"
+        tools:ignore="ExtraText">
+
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="355dp"
+            android:layout_height="484dp"
+            android:background="@drawable/rounded_corners"
+            android:importantForAccessibility="no"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.038"
+            app:srcCompat="@drawable/roundedpep" />
+
+
+        <ImageButton
+            android:id="@+id/imageViewPhoto"
+            android:layout_width="47dp"
+            android:layout_height="45dp"
+            android:background="@drawable/circle_background"
+            android:contentDescription="@string/description"
+            android:src="@drawable/baseline_add_a_photo_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.923"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.023"
+            tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+        <ImageButton
+            android:id="@+id/buttonEditPhoto"
+            android:layout_width="46dp"
+            android:layout_height="45dp"
+            android:background="@drawable/circle_background"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/baseline_movie_edit_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.923"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.118"
+            tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+        <ImageButton
+            android:id="@+id/buttonConfirmIdentity"
+            android:layout_width="53dp"
+            android:layout_height="49dp"
+            android:background="@drawable/gggblue"
+            android:contentDescription="@string/home"
+            android:src="@drawable/baseline_add_task_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.758"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/buttonExit"
+            android:layout_width="53dp"
+            android:layout_height="49dp"
+            android:background="@drawable/red"
+            android:importantForAccessibility="no"
+            android:src="@drawable/baseline_exit_to_app_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.745"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.758"
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/buttonSwitchAccount"
+            android:layout_width="52dp"
+            android:layout_height="50dp"
+            android:background="@drawable/circle_background"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/baseline_switch_account_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.242"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.759"
+            tools:ignore="MissingConstraints" />
+
+
+        <TextView
+            android:id="@+id/textViewProfile"
+            android:layout_width="321dp"
+            android:layout_height="108dp"
+            android:background="@drawable/rounded_corner_background"
+            android:text="@string/description"
+            android:textColor="@android:color/black"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.587"
+            tools:ignore="TextSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/buttonEdittext"
+            android:layout_width="41dp"
+            android:layout_height="41dp"
+            android:background="@drawable/circle_background"
+            android:contentDescription="@string/app_name"
+            android:padding="16dp"
+            android:src="@drawable/baseline_mode_edit_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.956"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.514"
+            tools:ignore="TouchTargetSizeCheck" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
+
+
+
+
+

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "248594195849",
+    "project_id": "lovelander-3a4ca",
+    "storage_bucket": "lovelander-3a4ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248594195849:android:8262526b3c890562106d58",
+        "android_client_info": {
+          "package_name": "com.example.talkerbanda"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnBb_dSkYJDaXYWLUB9a-geDfebj9knEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
