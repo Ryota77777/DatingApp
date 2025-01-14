@@ -80,4 +80,3 @@ DatingAppPrototype - это прототип мобильного приложе
 
 ---
 
-**Enjoy the movies with DatingApp!**
